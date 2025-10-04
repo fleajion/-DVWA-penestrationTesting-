@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Neither the config file or its backup should go
 # into the repo.
 config/config.inc.php.bak
@@ -14,3 +15,30 @@ tests/__pycache__/
 
 # Don't include any uploaded images
 hackable/uploads/*
+=======
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+>>>>>>> 7d8fb86a38ac8ec4ffc023a10c9af1292ccc9a6c
